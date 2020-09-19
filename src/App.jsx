@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import "./App.scss";
 import NavBar from "./components/navBar/navBar.component";
 import HomePage from "./components/homePage/homePage.component";
 import ProjectsPage from "./components/projectsPage/projectsPage.component";
 import ContactPage from "./components/contactPage/contactPage.component";
 import SkillsPage from "./components/skillsPage/skillsPage.component";
+import "./App.scss";
+import "./components/App-responsive.styles.scss";
 
 function App() {
   return (

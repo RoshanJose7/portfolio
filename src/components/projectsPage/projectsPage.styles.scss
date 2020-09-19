@@ -1,6 +1,6 @@
 #project-content {
   width: 100%;
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-color: rgb(63, 63, 63);
 }
 
 #project-content .project {
@@ -19,11 +19,6 @@
 
 #project-head {
   font-size: 80px;
-  transition: all 0.3s ease 0s;
-}
-
-#project-head:hover {
-  color: #5ec0e7;
 }
 
 .project-card {
@@ -32,17 +27,9 @@
   flex-direction: column;
   justify-content: space-evenly;
   color: rgb(43, 79, 95);
-  background-color: #eecd61;
+  background-color: #e8f1f3;
   text-align: center;
   margin: 20px;
-}
-
-.project-card h2 {
-  transition: all 0.3s ease 0s;
-}
-
-.project-card h2:hover {
-  color: azure;
 }
 
 .project-card-head {
@@ -53,24 +40,10 @@
   padding: 0 30px;
 }
 
-.project-card-content a {
-}
-
-.proj {
-  display: block;
-  height: 30px;
-  width: 120px;
-  margin: 10px auto;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  background-image: linear-gradient(135deg, #667eeada 0%, #764ba2d7 100%);
-}
-
 .code {
   display: block;
-  height: 30px;
-  width: 100px;
+  height: 50px;
+  width: 150px;
   margin: 10px auto;
   border: none;
   border-radius: 50px;
@@ -78,6 +51,11 @@
   background-image: linear-gradient(135deg, #667eeada 0%, #764ba2d7 100%);
 }
 
+.code i {
+  font-size: 18px;
+}
+
+.proj:hover,
 .code:hover {
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
@@ -90,18 +68,23 @@
 //testing
 
 .intro {
-  background: rgb(3, 145, 3);
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(234, 249, 249, 0.67) 0.1%,
+    rgba(239, 249, 251, 0.63) 90.1%
+  );
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: black;
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
 }
+
 .slider {
-  background: yellow;
+  background: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -110,14 +93,8 @@
   transform: translateY(100%);
 }
 
-.intro-text {
-  color: rgb(233, 233, 233);
-  font-family: "Heebo", sans-serif;
-  font-size: 3rem;
-}
-
 .hide {
-  background: rgb(3, 145, 3);
+  background-color: transparent;
   overflow: hidden;
 }
 

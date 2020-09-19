@@ -13,6 +13,7 @@ function HomePage() {
     tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1 });
     tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
   });
+
   return (
     <main id="home-content">
       <span className="big-text" id="txt">
@@ -64,13 +65,10 @@ function HomePage() {
       </span>
       <div className="intro">
         <h1 className="hide">
-          <span className="text">Hello</span>
+          <span className="text">Hello,</span>
         </h1>
         <h1 className="hide">
-          <span className="text">This is my</span>
-        </h1>
-        <h1 className="hide">
-          <span className="text">Portfolio.</span>
+          <span className="text">This is my Portfolio.</span>
         </h1>
       </div>
       <div className="slider"></div>

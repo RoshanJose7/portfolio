@@ -1,0 +1,103 @@
+@media screen and (max-width: 1024px) {
+  #nav-links li {
+    margin-right: 50px;
+  }
+  #logo {
+    width: 600px;
+    margin-left: 10%;
+  }
+  .skill-sub {
+    font-size: 50px;
+  }
+  #skill {
+    display: flex;
+    flex-direction: column;
+    justify-self: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  #contact-links {
+    padding-left: 100px;
+  }
+  #project-card-holder {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+}
+
+@media screen and(max-width: 500px) {
+  #burger {
+    display: inline-block;
+  }
+  #nav-links {
+    position: fixed;
+    min-height: 92vh;
+    width: 100%;
+    top: 8vh;
+    margin: 0;
+    background-color: rgb(211, 209, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.5s ease-out;
+    clip-path: circle(100px at 90% -20%);
+    -webkit-clip-path: circle(100px at 90% -10%);
+    pointer-events: none;
+  }
+  #nav-links li {
+    font-size: 30px;
+  }
+  #nav-links.open {
+    margin: 0;
+    clip-path: circle(1500px at 90% -10%);
+    -webkit-clip-path: circle(1500px at 90% -10%);
+    pointer-events: all;
+    height: 100vh;
+  }
+  #logo {
+    width: 350px;
+    margin: 0;
+  }
+  .text {
+    font-size: 40px;
+  }
+  #txt {
+    font-size: 50px;
+    margin: 5% 0 0 5%;
+  }
+  #txt2 {
+    font-size: 40px;
+    margin: 0 3% 5% auto;
+  }
+  #skill-head {
+    font-size: 60px;
+  }
+  .skill-sub {
+    font-size: 30px;
+  }
+  section span {
+    font-size: 24px;
+  }
+  #contact-head {
+    font-size: 60px;
+  }
+  #contact-content {
+    font-size: 18px;
+  }
+  #contact-links {
+    padding-left: 30px;
+  }
+  .text {
+    font-size: 40px;
+  }
+  #project-head {
+    font-size: 60px;
+  }
+  #project-card-holder {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+  }
+}

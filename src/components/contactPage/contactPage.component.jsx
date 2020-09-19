@@ -64,15 +64,11 @@ function ContactPage() {
         </div>
       </div>
       <div className="intro">
-        <div className="intro-text">
-          <h1 className="hide">
-            <span className="text">Contact</span>
-          </h1>
-          <h1 className="hide">
-            <span className="text">Page</span>
-          </h1>
-        </div>
+        <h1 className="hide">
+          <span className="text">Contact Me</span>
+        </h1>
       </div>
+
       <div className="slider"></div>
     </main>
   );

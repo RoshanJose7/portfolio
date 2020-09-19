@@ -1,6 +1,10 @@
 #skills-content {
-  height: 92vh;
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  min-height: 92vh;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(64, 64, 64, 1) 90.2%
+  );
   color: white;
   display: flex;
   flex-direction: column;
@@ -9,7 +13,7 @@
   font-size: 26px;
 }
 
-#skills-content div {
+#skill {
   margin: 0 30px;
 }
 
@@ -21,7 +25,7 @@
 }
 
 #skill-head:hover {
-  color: #eb6161;
+  color: #00b4fd;
 }
 
 #skills-content div {
@@ -30,21 +34,30 @@
   justify-content: space-around;
 }
 
+section span {
+  color: rgb(207, 207, 207);
+}
+
 //testing
 
 .intro {
-  background: rgb(0, 0, 0);
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(234, 249, 249, 0.67) 0.1%,
+    rgba(239, 249, 251, 0.63) 90.1%
+  );
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: black;
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
 }
+
 .slider {
-  background: grey;
+  background: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -53,14 +66,8 @@
   transform: translateY(100%);
 }
 
-.intro-text {
-  color: rgb(233, 233, 233);
-  font-family: "Heebo", sans-serif;
-  font-size: 3rem;
-}
-
 .hide {
-  background: rgb(0, 0, 0);
+  background-color: transparent;
   overflow: hidden;
 }
 

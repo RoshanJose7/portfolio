@@ -3,6 +3,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(211, 209, 209);
 
   h1 {
     font-family: "Lobster", cursive;
@@ -16,7 +17,24 @@ nav {
 
   li {
     display: inline-block;
-    margin: 0 20px;
+    margin-right: 20px;
     color: black;
   }
+}
+
+#burger {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 4vh;
+  right: 5vh;
+  transform: translate(-5%, -50%);
+}
+
+#burger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+  transition: all 0.3s ease;
 }
