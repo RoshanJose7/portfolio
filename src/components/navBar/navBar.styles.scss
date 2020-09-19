@@ -1,0 +1,22 @@
+nav {
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    font-family: "Lobster", cursive;
+    margin: 0 20px;
+    color: black;
+  }
+}
+
+#nav-links {
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin: 0 20px;
+    color: black;
+  }
+}

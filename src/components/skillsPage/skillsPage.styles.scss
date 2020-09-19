@@ -1,0 +1,70 @@
+#skills-content {
+  height: 92vh;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 26px;
+}
+
+#skills-content div {
+  margin: 0 30px;
+}
+
+#skill-head {
+  margin: 0;
+  text-align: center;
+  font-size: 100px;
+  transition: all 0.3s ease 0s;
+}
+
+#skill-head:hover {
+  color: #eb6161;
+}
+
+#skills-content div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+//testing
+
+.intro {
+  background: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}

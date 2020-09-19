@@ -1,0 +1,127 @@
+#project-content {
+  width: 100%;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+#project-content .project {
+  color: white;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#project-card-holder {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+}
+
+#project-head {
+  font-size: 80px;
+  transition: all 0.3s ease 0s;
+}
+
+#project-head:hover {
+  color: #5ec0e7;
+}
+
+.project-card {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: rgb(43, 79, 95);
+  background-color: #eecd61;
+  text-align: center;
+  margin: 20px;
+}
+
+.project-card h2 {
+  transition: all 0.3s ease 0s;
+}
+
+.project-card h2:hover {
+  color: azure;
+}
+
+.project-card-head {
+  padding: 0 8px;
+}
+
+.project-card-content {
+  padding: 0 30px;
+}
+
+.project-card-content a {
+}
+
+.proj {
+  display: block;
+  height: 30px;
+  width: 120px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-image: linear-gradient(135deg, #667eeada 0%, #764ba2d7 100%);
+}
+
+.code {
+  display: block;
+  height: 30px;
+  width: 100px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-image: linear-gradient(135deg, #667eeada 0%, #764ba2d7 100%);
+}
+
+.code:hover {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.project-card-content a {
+  text-decoration: none;
+  color: white;
+}
+
+//testing
+
+.intro {
+  background: rgb(3, 145, 3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: yellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background: rgb(3, 145, 3);
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
