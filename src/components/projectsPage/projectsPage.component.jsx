@@ -1,8 +1,66 @@
 import React, { useEffect } from "react";
+import ProjectCard from "./projectCard.component";
 import "./projectsPage.styles.scss";
 import gsap from "gsap";
 
 function ProjectsPage() {
+  const cardInfo = [
+    {
+      id: 1,
+      head: "Miniature Jarves",
+      text:
+        "Coded a miniature demo version of Jarves(from Iron Man) using python 3.8",
+      pLink: "https://weather-app-by-jose.herokuapp.com/",
+      ghLink: "https://github.com/RoshanJose7/jarves",
+    },
+    {
+      id: 2,
+      head: "Tinder for Dogs",
+      text:
+        "A RIP off of Tinder but for dogs. The page shows only the pricing plans and homepage but not the exact functional version of Tinder.",
+      pLink: "https://weather-app-by-jose.herokuapp.com/",
+      ghLink: "https://github.com/RoshanJose7/jarves",
+    },
+    {
+      id: 3,
+      head: "Weather App",
+      text:
+        "A simple weather app with NodeJS. It takes a WeatherStack API to request for the current weather forecast of any city in the world.",
+      pLink: "https://weather-app-by-jose.herokuapp.com/",
+      ghLink: "https://github.com/RoshanJose7/jarves",
+    },
+    {
+      id: 4,
+      head: "Monster's Rolodex",
+      text:
+        "A simple React Web App which uses an API to show the images, and use a search filter to showcase Reacts' Virtual DOM.",
+      pLink: "https://weather-app-by-jose.herokuapp.com/",
+      ghLink: "https://github.com/RoshanJose7/jarves",
+    },
+    {
+      id: 5,
+      head: "Task Manager",
+      text:
+        "A simple REST API with user authentication and a backend DataBase made using NodeJS, Mongoose and MongoDB.",
+      pLink: "https://weather-app-by-jose.herokuapp.com/",
+      ghLink: "https://github.com/RoshanJose7/jarves",
+    },
+    {
+      id: 6,
+      head: "Covid19 App",
+      text: "A project which we built in the FLIPR hackathon 6.0",
+      pLink: "https://weather-app-by-jose.herokuapp.com/",
+      ghLink: "https://github.com/RoshanJose7/jarves",
+    },
+    {
+      id: 7,
+      head: "Interior Design",
+      text:
+        "A Interior Design website project which we built in an Internship/Workshop program with Verzeo.",
+      pLink: "https://weather-app-by-jose.herokuapp.com/",
+      ghLink: "https://github.com/RoshanJose7/jarves",
+    },
+  ];
   useEffect(() => {
     const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
 
@@ -24,138 +82,9 @@ function ProjectsPage() {
           My Projects
         </h1>
         <div id="project-card-holder">
-          <div className="project-card">
-            <h2 className="big-text project-card-head">Miniature Jarves</h2>
-            <div className="big-text project-card-content">
-              Coded a miniature demo version of Jarves(from Iron Man) using
-              python 3.8
-              <a href="https://weather-app-by-jose.herokuapp.com/">
-                <button className="code">
-                  <i className="fab fa-firefox-browser" />
-                  &nbsp; View Project
-                </button>
-              </a>
-              <a href="https://github.com/RoshanJose7/jarves">
-                <button className="code">
-                  <i className="fab fa-github" />
-                  &nbsp; View Code
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="project-card">
-            <h2 className="big-text project-card-head">Tinder for Dogs</h2>
-            <div className="big-text project-card-content">
-              A RIP off of Tinder but for dogs. The page shows only the pricing
-              plans and homepage but not the exact functional version of Tinder.
-              <a href="https://weather-app-by-jose.herokuapp.com/">
-                <button className="code">
-                  <i className="fab fa-firefox-browser" />
-                  &nbsp; View Project
-                </button>
-              </a>
-              <a href="https://github.com/RoshanJose7/Tinder-RIP">
-                <button className="code">
-                  <i className="fab fa-github" />
-                  &nbsp; View Code
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="project-card">
-            <h2 className="big-text project-card-head">Weather App</h2>
-            <div className="big-text project-card-content">
-              A simple weather app with NodeJS. It takes a WeatherStack API to
-              request for the current weather forecast of any city in the world.
-              <a href="https://weather-app-by-jose.herokuapp.com/">
-                <button className="code">
-                  <i className="fab fa-firefox-browser" />
-                  &nbsp; View Project
-                </button>
-              </a>
-              <a href="https://github.com/RoshanJose7/weather_app">
-                <button className="code">
-                  <i className="fab fa-github" />
-                  &nbsp; View Code
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="project-card">
-            <h2 className="big-text project-card-head">Monster's Rolodex</h2>
-            <div className="big-text project-card-content">
-              A simple React Web App which uses an API to show the images, and
-              use a search filter to showcase Reacts' Virtual DOM.
-              <a href="https://weather-app-by-jose.herokuapp.com/">
-                <button className="code">
-                  <i className="fab fa-firefox-browser" />
-                  &nbsp; View Project
-                </button>
-              </a>
-              <a href="https://github.com/RoshanJose7/monsters-rolodex">
-                <button className="code">
-                  <i className="fab fa-github" />
-                  &nbsp; View Code
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="project-card">
-            <h2 className="big-text project-card-head">Task Manager</h2>
-            <div className="big-text project-card-content">
-              A simple REST API with user authentication and a backend DataBase
-              made using NodeJS, Mongoose and MongoDB.
-              <a href="https://weather-app-by-jose.herokuapp.com/">
-                <button className="code">
-                  <i className="fab fa-firefox-browser" />
-                  &nbsp; View Project
-                </button>
-              </a>
-              <a href="https://github.com/RoshanJose7/task_manager">
-                <button className="code">
-                  <i className="fab fa-github" />
-                  &nbsp; View Code
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="project-card">
-            <h2 className="big-text project-card-head">Covid19 App</h2>
-            <div className="big-text project-card-content">
-              A project which we built in the FLIPR hackathon 6.0
-              <a href="https://weather-app-by-jose.herokuapp.com/">
-                <button className="code">
-                  <i className="fab fa-firefox-browser" />
-                  &nbsp; View Project
-                </button>
-              </a>
-              <a href="https://github.com/MVJ-Boys/flipr-FSA-covid">
-                <button className="code">
-                  <i className="fab fa-github" />
-                  &nbsp; View Code
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="project-card">
-            <h2 className="big-text project-card-head">Interior Design</h2>
-            <div className="big-text project-card-content">
-              A Interior Design website project which we built in an
-              Internship/Workshop program with Verzeo.
-              <a href="https://weather-app-by-jose.herokuapp.com/">
-                <button className="code">
-                  <i className="fab fa-firefox-browser" />
-                  &nbsp; View Project
-                </button>
-              </a>
-              <a href="https://github.com/WD06B6/interior-design">
-                <button className="code">
-                  <i className="fab fa-github" />
-                  &nbsp; View Code
-                </button>
-              </a>
-            </div>
-          </div>
+          {cardInfo.map((card, index) => {
+            return <ProjectCard key={index} info={card} />;
+          })}
         </div>
       </div>
       <div className="intro">
