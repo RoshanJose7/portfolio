@@ -39,6 +39,8 @@ function ContactPage() {
                 <a
                   className="big-text fa-a"
                   href="https://github.com/RoshanJose7"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa fa-github"></i>
                 </a>
@@ -47,6 +49,8 @@ function ContactPage() {
                 <a
                   className="big-text fa-a"
                   href="https://www.linkedin.com/in/roshan-jose-919456118/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa fa-linkedin"></i>
                 </a>
@@ -55,6 +59,8 @@ function ContactPage() {
                 <a
                   className="big-text fa-a"
                   href="https://www.instagram.com/rj7_plays/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa fa-instagram"></i>
                 </a>

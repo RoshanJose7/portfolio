@@ -10,7 +10,7 @@ function ProjectsPage() {
       head: "Miniature Jarves",
       text:
         "Coded a miniature demo version of Jarves(from Iron Man) using python 3.8",
-      pLink: "https://weather-app-by-jose.herokuapp.com/",
+      pLink: null,
       ghLink: "https://github.com/RoshanJose7/jarves",
     },
     {
@@ -18,15 +18,15 @@ function ProjectsPage() {
       head: "Tinder for Dogs",
       text:
         "A RIP off of Tinder but for dogs. The page shows only the pricing plans and homepage but not the exact functional version of Tinder.",
-      pLink: "https://weather-app-by-jose.herokuapp.com/",
-      ghLink: "https://github.com/RoshanJose7/jarves",
+      pLink: "https://roshanjose7.github.io/Tinder-RIP/",
+      ghLink: "https://github.com/RoshanJose7/Tinder-RIP",
     },
     {
       id: 3,
       head: "Weather App",
       text:
         "A simple weather app with NodeJS. It takes a WeatherStack API to request for the current weather forecast of any city in the world.",
-      pLink: "https://weather-app-by-jose.herokuapp.com/",
+      pLink: null,
       ghLink: "https://github.com/RoshanJose7/jarves",
     },
     {
@@ -34,22 +34,22 @@ function ProjectsPage() {
       head: "Monster's Rolodex",
       text:
         "A simple React Web App which uses an API to show the images, and use a search filter to showcase Reacts' Virtual DOM.",
-      pLink: "https://weather-app-by-jose.herokuapp.com/",
-      ghLink: "https://github.com/RoshanJose7/jarves",
+      pLink: null,
+      ghLink: "https://github.com/RoshanJose7/monsters-rolodex",
     },
     {
       id: 5,
-      head: "Task Manager",
+      head: "Task Manager API",
       text:
         "A simple REST API with user authentication and a backend DataBase made using NodeJS, Mongoose and MongoDB.",
-      pLink: "https://weather-app-by-jose.herokuapp.com/",
-      ghLink: "https://github.com/RoshanJose7/jarves",
+      pLink: null,
+      ghLink: "https://github.com/RoshanJose7/task_manager",
     },
     {
       id: 6,
       head: "Covid19 App",
       text: "A project which we built in the FLIPR hackathon 6.0",
-      pLink: "https://weather-app-by-jose.herokuapp.com/",
+      pLink: "https://covid-data-team-x.herokuapp.com/",
       ghLink: "https://github.com/RoshanJose7/jarves",
     },
     {
@@ -57,7 +57,7 @@ function ProjectsPage() {
       head: "Interior Design",
       text:
         "A Interior Design website project which we built in an Internship/Workshop program with Verzeo.",
-      pLink: "https://weather-app-by-jose.herokuapp.com/",
+      pLink: null,
       ghLink: "https://github.com/RoshanJose7/jarves",
     },
   ];

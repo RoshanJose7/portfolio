@@ -1,4 +1,5 @@
 import React from "react";
+import { IspLinkDisabled, IsghLinkDisabled } from "./isDisabledLink.component";
 
 const ProjectCard = (props) => {
   return (
@@ -6,18 +7,8 @@ const ProjectCard = (props) => {
       <h2 className="big-text project-card-head">{props.info.head}</h2>
       <div className="big-text project-card-content">
         {props.info.text}
-        <a href={props.info.pLink}>
-          <button className="code">
-            <i className="fab fa-firefox-browser" />
-            &nbsp; View Project
-          </button>
-        </a>
-        <a href={props.info.ghLink}>
-          <button className="code">
-            <i className="fab fa-github" />
-            &nbsp; View Code
-          </button>
-        </a>
+        <IspLinkDisabled pLink={props.info.pLink}></IspLinkDisabled>
+        <IsghLinkDisabled ghLink={props.info.ghLink}></IsghLinkDisabled>
       </div>
     </div>
   );
