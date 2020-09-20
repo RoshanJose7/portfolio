@@ -4,12 +4,16 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: rgb(211, 209, 209);
+}
 
-  h1 {
-    font-family: "Lobster", cursive;
-    margin: 0 20px;
-    color: black;
-  }
+nav h1 {
+  font-family: "Satisfy", cursive;
+  margin: 0 20px;
+  color: black;
+}
+
+nav h1 a {
+  text-decoration: none;
 }
 
 #nav-links {

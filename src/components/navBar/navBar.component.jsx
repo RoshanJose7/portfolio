@@ -12,6 +12,7 @@ function NavBar() {
     const nav = document.querySelector("#nav-links");
     const navLinks = document.querySelectorAll("#nav-links li");
 
+    //Close the navbar when a nav-link is clicked
     navLinks.forEach((link) => {
       link.addEventListener("click", () => {
         // Toggle Nav
@@ -32,7 +33,7 @@ function NavBar() {
   return (
     <nav>
       <Link style={navStyle} to="/">
-        <h1>LOGO</h1>
+        <h1>Roshan Jose</h1>
       </Link>
       <ul id="nav-links">
         <Link style={navStyle} to="/skills">
