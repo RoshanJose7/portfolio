@@ -8,18 +8,25 @@ function NavBar() {
   };
 
   useEffect(() => {
-    const navSlide = () => {
-      const burger = document.querySelector("#burger");
-      const nav = document.querySelector("#nav-links");
+    const burger = document.querySelector("#burger");
+    const nav = document.querySelector("#nav-links");
+    const navLinks = document.querySelectorAll("#nav-links li");
 
-      burger.addEventListener("click", () => {
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
         // Toggle Nav
         nav.classList.toggle("open");
         // Burger Animation
         burger.classList.toggle("toggle");
       });
-    };
-    navSlide();
+    });
+
+    burger.addEventListener("click", () => {
+      // Toggle Nav
+      nav.classList.toggle("open");
+      // Burger Animation
+      burger.classList.toggle("toggle");
+    });
   });
 
   return (
@@ -39,9 +46,9 @@ function NavBar() {
         </Link>
       </ul>
       <div id="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
       </div>
     </nav>
   );
