@@ -1,6 +1,6 @@
-# RoshanJose7.github.io
+# My Porfolio Website
 
-This is my Portfolio Website which is built using Parcel.
+This is my Portfolio Website which is built using React.
 
 SVG animations are done using CSS
-GSAP page animations are used.
+GSAP 3 page animations are used.
