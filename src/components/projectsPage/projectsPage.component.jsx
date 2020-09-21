@@ -7,7 +7,7 @@ function ProjectsPage() {
   const cardInfo = [
     {
       id: 1,
-      head: "Miniature Jarves",
+      head: "Miniature Jarvis",
       text:
         "Coded a miniature demo version of Jarves(from Iron Man) using python 3.8",
       pLink: null,
