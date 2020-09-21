@@ -34,7 +34,7 @@ function ProjectsPage() {
       head: "Monster's Rolodex",
       text:
         "A simple React Web App which uses an API to show the images, and use a search filter to showcase Reacts' Virtual DOM.",
-      pLink: null,
+      pLink: "https://monstersrolodex.netlify.app/",
       ghLink: "https://github.com/RoshanJose7/monsters-rolodex",
     },
     {
