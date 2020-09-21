@@ -57,8 +57,11 @@
     -webkit-clip-path: circle(1500px at 90% -10%);
     pointer-events: all;
   }
+  #svg {
+    padding: 5%;
+  }
   #logo {
-    width: 100%;
+    width: 90%;
     margin: 0;
   }
   .text {
