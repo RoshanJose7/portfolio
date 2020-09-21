@@ -9,7 +9,7 @@ function ProjectsPage() {
       id: 1,
       head: "Miniature Jarvis",
       text:
-        "Coded a miniature demo version of Jarves(from Iron Man) using python 3.8",
+        "Coded a miniature demo version of Jarvis(from Iron Man) using python 3.8",
       pLink: null,
       ghLink: "https://github.com/RoshanJose7/jarves",
     },
